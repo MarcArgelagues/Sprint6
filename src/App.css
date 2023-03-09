@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.marcar{ 
+  border-radius: 30px;
+  padding: 6px;
+  width: 100%;
+  background-color: lightcoral;
+
+}
+.nomarcar{ 
+
+  background-color: white;
+
+}
