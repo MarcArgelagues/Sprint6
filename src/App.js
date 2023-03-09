@@ -15,7 +15,7 @@ function App() {
     stringRefs.current.forEach((ref, index) => {
       if (ref) {
         if (index === currentStringIndex) {
-          ref.parentNode.style.backgroundColor = 'lightcoral';
+          ref.parentNode.style.backgroundColor = 'lightcoral'
         } else {
           ref.parentNode.style.backgroundColor = 'white';
         }
@@ -31,7 +31,7 @@ function App() {
   };
 
   const onPrevButtonClick = () => {
-    if (currentStringIndex > 0) {
+    if (currentStringIndex >= 0) {
       setCurrentStringIndex(currentStringIndex - 1);
       marcarCurrentString();
     }
@@ -54,7 +54,7 @@ function App() {
           {strings.map((str, index) => (
             <Estil key={index}>
               <div ref={(ref) => (stringRefs.current[index] = ref)}>
-                {str}
+                {str.text} 
               </div>
             </Estil>
           ))}
