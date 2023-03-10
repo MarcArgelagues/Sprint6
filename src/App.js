@@ -16,6 +16,7 @@ function App() {
       if (ref) {
         if (index === currentStringIndex) {
           ref.parentNode.style.backgroundColor = 'lightcoral'
+
         } else {
           ref.parentNode.style.backgroundColor = 'white';
         }
