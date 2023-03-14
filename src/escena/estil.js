@@ -17,11 +17,7 @@ font-size:20px;
 display:flex;
 text-align:center;
 margin-top:300px;
-
-
 `
-
-
 export const DivButon=styled.div`
 display:flex;
 justify-content: space-between;
@@ -31,4 +27,12 @@ width:50%;
 padding:15px;
 font-size:20px;
 
+`
+export const Imatge=styled.div `
+  max-width: 100%;
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(150px);
 `
